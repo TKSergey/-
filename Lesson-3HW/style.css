@@ -86,6 +86,7 @@ nav {
     display: flex;
     flex-direction: column;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    z-index: 2;
 }
 
 #switcher {
