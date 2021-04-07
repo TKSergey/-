@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="top">
+        <div class="header">
+            <ul class="header_left">
+                <li class="icon">
+                    <a href="index.html"><img src="img/logo.svg" alt="logo" /></a>
+                </li>
+                <li class="find">
+                    <a href="find.html"><img src="img/find.svg" alt="find" /></a>
+                </li>
+            </ul>
+            <div class="header_right">
+                <input type="checkbox" id="switcher">
+                <label id="open" for="switcher"><img src="img/menu.svg" alt="menu"></label>
+                <nav>
+                    <div class="mega-box">
+                        <h3 class="mega-name">menu</h3>
+                        <div class="mega-item">
+                            <h3 class="mega-hedding">man</h3>
+                            <ul>
+                                <li class="menu-li"><a class="mega-link" href="#">Accessories</a></li>
+                                <li class="menu-li"><a class="mega-link" href="#">Bags</a></li>
+                                <li class="menu-li"><a class="mega-link" href="#">Denim</a></li>
+                                <li class="menu-li"><a class="mega-link" href="#">T-Shirts</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="mega-hedding">woman</h3>
+                            <ul>
+                                <li class="menu-li"><a class="mega-link" href="#">Accessories</a></li>
+                                <li class="menu-li"><a class="mega-link" href="#">Jackets & Coats</a></li>
+                                <li class="menu-li"><a class="mega-link" href="#">Polos</a></li>
+                                <li class="menu-li"><a class="mega-link" href="#">T-Shirts</a></li>
+                                <li class="menu-li"><a class="mega-link" href="#">Shirts</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-item">
+                            <h3 class="mega-hedding">kids</h3>
+                            <ul>
+                                <li class="menu-li"><a class="mega-link" href="#">Accessories</a></li>
+                                <li class="menu-li"><a class="mega-link" href="#">Jackets & Coats</a></li>
+                                <li class="menu-li"><a class="mega-link" href="#">Polos</a></li>
+                                <li class="menu-li"><a class="mega-link" href="#">T-Shirts</a></li>
+                                <li class="menu-li"><a class="mega-link" href="#">Shirts</a></li>
+                                <li class="menu-li"><a class="mega-link" href="#">Bags</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <label id="close" for="switcher"><i class="fas fa-times"></i></label>
+                </nav>
+                <a href="registration.html"><img src="img/registration.svg" alt="registration" /></a>
+                <div class="basket">
+                    <a href="cart.html"><img src="img/cart.svg" alt="cart" /></a>
+                    <div class="pink_el">
+                        <p>0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-info">
+        <div class="page-info-container">
+            <h3 class="page-name">REGISTRATION</h3>
+        </div>
+    </div>
+    <div class="registration">
+        <div class="registration-info">
+            <form action="#">
+                <h4 class="registration-heading">Your Name</h4>
+                <input id="name" class="name-block" placeholder="First Name" required="" pattern="\S+@[a-z]+.[a-z]+">
+                <input id="surname" class="name-block" placeholder="Last Name" required="" pattern="\S+@[a-z]+.[a-z]+">
+                <div class="radio-button">
+                    <label><input type="radio" name="gender" value="male">Male</label>
+                    <label><input type="radio" name="gender" value="female">Female</label>
+                </div>
+                <h4 class="registration-heading">Login details</h4>
+                <input id="email" class="name-block" placeholder="Email" required="" pattern="\S+@[a-z]+.[a-z]+">
+                <input id="userPassword" class="name-block" type="password" placeholder="Password"
+                    autocomplete="current-password">
+                <p class="password-info">Please use 8 or more characters, with at least 1 number and a<br>mixture of
+                    uppercase and lowercase letters</p>
+                <button type="submit" class="join-button">JOIN NOW <img class="arrow-right" src="img/arrow-right.svg"
+                        alt="arrow"></button>
+
+            </form>
+        </div>
+        <div class="registration-text">
+            <h3 class="registraion-text-heading">LOYALTY HAS ITS PERKS</h3>
+            <p class="registration-paragraph-top">Get in on the loyalty program where you
+                can earn points and unlock
+                serious perks. Starting with these as soon as you join:
+            </p>
+            <p class="registraion-tex-paragraph"><img class="check-mark" src="img/сheck-mark.svg" alt="">15% off welcome
+                offer
+            </p>
+            <p class="registraion-tex-paragraph"><img class="check-mark" src="img/сheck-mark.svg" alt="">Free shipping,
+                returns and exchanges on all orders
+            </p>
+            <p class="registraion-tex-paragraph"><img class="check-mark" src="img/сheck-mark.svg" alt="">$10 off a
+                purchase on your birthday
+            </p>
+            <p class="registraion-tex-paragraph"><img class="check-mark" src="img/сheck-mark.svg" alt="">Early access to
+                products</p>
+            <p class="registraion-tex-paragraph"><img class="check-mark" src="img/сheck-mark.svg" alt="">Exclusive
+                offers & rewards</p>
+        </div>
+    </div>
+    <div class="footer_middle footer-registration">
+        <div class="container">
+            <div class="footer_middle_info">
+                <div class="feedback">
+                    <img class="feedback_image" src="img/Intersect.svg" alt="intersect">
+                    <p class="feedback_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+                        purus condimentum“</p>
+                </div>
+                <div class="contact_form">
+                    <h3 class="subscribe_text">SUBSCRIBE</h3>
+                    <p class="subscribe_text_bottom">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <form class="from_email" action="#">
+                        <input class="email" type="email" placeholder="Enter Your Email">
+                        <button type="submit" class="subscribe"><span style="color: #FFFFFF;">Subscribe</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container wrapper">
+            <p class="footer_copy_text">© 2021 Brand All Rights Reserved.</p>
+            <div class="footer_links_item">
+                <div class="footer_social">
+                    <a href="#" class="social_link"><i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social_link"><i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social_link"><i class="fab fa-pinterest-p"></i>
+                    </a>
+                    <a href="#" class="social_link"><i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
