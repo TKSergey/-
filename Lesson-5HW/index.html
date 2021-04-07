@@ -19,30 +19,61 @@
 
 <body>
 	<div class="top">
-		<div class="container">
-			<div class="header">
-				<ul class="header_left">
-					<li class="icon">
-						<a href="index.html"><img src="img/logo.svg" alt="logo" /></a>
-					</li>
-					<li class="find">
-						<a href="find.html"><img src="img/find.svg" alt="find" /></a>
-					</li>
-				</ul>
-				<ul class="header_right">
-					<li>
-						<a href="menu.html"><img src="img/menu.svg" alt="menu" /></a>
-					</li>
-					<li>
-						<a href="contacts.html"><img src="img/contacts.svg" alt="contacts" /></a>
-					</li>
-					<li class="basket">
-						<a href="basket.html"><img src="img/basket.svg" alt="basket" /></a>
-						<div class="pink_el">
-							<p>0</p>
+		<div class="header">
+			<ul class="header_left">
+				<li class="icon">
+					<a href="index.html"><img src="img/logo.svg" alt="logo" /></a>
+				</li>
+				<li class="find">
+					<a href="find.html"><img src="img/find.svg" alt="find" /></a>
+				</li>
+			</ul>
+			<div class="header_right">
+				<input type="checkbox" id="switcher">
+				<label id="open" for="switcher"><img src="img/menu.svg" alt="menu"></label>
+				<nav>
+					<div class="mega-box">
+						<h3 class="mega-name">menu</h3>
+						<div class="mega-item">
+							<h3 class="mega-hedding">man</h3>
+							<ul>
+								<li class="menu-li"><a class="mega-link" href="#">Accessories</a></li>
+								<li class="menu-li"><a class="mega-link" href="#">Bags</a></li>
+								<li class="menu-li"><a class="mega-link" href="#">Denim</a></li>
+								<li class="menu-li"><a class="mega-link" href="#">T-Shirts</a></li>
+							</ul>
 						</div>
-					</li>
-				</ul>
+						<div class="mega-item">
+							<h3 class="mega-hedding">woman</h3>
+							<ul>
+								<li class="menu-li"><a class="mega-link" href="#">Accessories</a></li>
+								<li class="menu-li"><a class="mega-link" href="#">Jackets & Coats</a></li>
+								<li class="menu-li"><a class="mega-link" href="#">Polos</a></li>
+								<li class="menu-li"><a class="mega-link" href="#">T-Shirts</a></li>
+								<li class="menu-li"><a class="mega-link" href="#">Shirts</a></li>
+							</ul>
+						</div>
+						<div class="mega-item">
+							<h3 class="mega-hedding">kids</h3>
+							<ul>
+								<li class="menu-li"><a class="mega-link" href="#">Accessories</a></li>
+								<li class="menu-li"><a class="mega-link" href="#">Jackets & Coats</a></li>
+								<li class="menu-li"><a class="mega-link" href="#">Polos</a></li>
+								<li class="menu-li"><a class="mega-link" href="#">T-Shirts</a></li>
+								<li class="menu-li"><a class="mega-link" href="#">Shirts</a></li>
+								<li class="menu-li"><a class="mega-link" href="#">Bags</a></li>
+							</ul>
+						</div>
+					</div>
+					<label id="close" for="switcher"><i class="fas fa-times"></i></label>
+				</nav>
+				<a href="registration.html"><img src="img/registration.svg" alt="registration" /></a>
+				<div class="basket">
+					<a href="cart.html"><img src="img/cart.svg" alt="cart" /></a>
+					<div class="pink_el">
+						<p>0</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -62,34 +93,39 @@
 		</div>
 	</div>
 	<div class="main">
-		<div class="container">
-
-			<div class="hot_small">
-				<div class="box1">
-					<div class="box_text">
+		<div class="hot_small">
+			<div class="box1">
+				<div class="box_text">
+					<a href="catalog.html" class="box_text_link">
 						<h3 class="box_text_top">30% OFF</h3>
 						<p class="box_text_bottom">FOR WOMEN</p>
-					</div>
-				</div>
-				<div class="box2">
-					<div class="box_text">
-						<h3 class="box_text_top">HOT DEAL</h3>
-						<p class="box_text_bottom">FOR MEN</p>
-					</div>
-				</div>
-				<div class="box3">
-					<div class="box_text">
-						<h3 class="box_text_top">NEW ARRIVALS</h3>
-						<p class="box_text_bottom">FOR KIDS</p>
-					</div>
+					</a>
 				</div>
 			</div>
-			<div class="hot_big">
-				<div class="box4">
-					<div class="box_text2">
+			<div class="box2">
+				<div class="box_text">
+					<a href="catalog.html" class="box_text_link">
+						<h3 class="box_text_top">HOT DEAL</h3>
+						<p class="box_text_bottom">FOR MEN</p>
+					</a>
+				</div>
+			</div>
+			<div class="box3">
+				<div class="box_text">
+					<a href="catalog.html" class="box_text_link">
+						<h3 class="box_text_top">NEW ARRIVALS</h3>
+						<p class="box_text_bottom">FOR KIDS</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="hot_big">
+			<div class="box4">
+				<div class="box_text2">
+					<a href="catalog.html" class="box_text_link">
 						<h3 class="box_text_top">LUXIROUS & TRENDY</h3>
-						<p class="box_text_bottom">ACCESSORIES</p>
-					</div>
+						<p class="box_text_bottom">ACCESORIES</p>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -114,7 +150,7 @@
 					<figure>
 						<img class="fetured_image" src="img/product1.svg" alt="product">
 						<figcaption class="fetured__text">
-							<a href="product.html" class="text__link">
+							<a href="products.html" class="text__link">
 								<h4 class="product__name">ELLERY X M'O CAPSULE</h4>
 								<p class="product__descriptiom">Known for her sculptural takes on traditional tailoring,
 									Australian arbiter of
@@ -137,7 +173,7 @@
 					<figure>
 						<img class="fetured_image" src="img/product2.svg" alt="product">
 						<figcaption class="fetured__text">
-							<a href="product.html" class="text__link">
+							<a href="products.html" class="text__link">
 								<h4 class="product__name">ELLERY X M'O CAPSULE</h4>
 								<p class="product__descriptiom">Known for her sculptural takes on traditional tailoring,
 									Australian arbiter of
@@ -160,7 +196,7 @@
 					<figure>
 						<img class="fetured_image" src="img/product3.svg" alt="product">
 						<figcaption class="fetured__text">
-							<a href="product.html" class="text__link">
+							<a href="products.html" class="text__link">
 								<h4 class="product__name">ELLERY X M'O CAPSULE</h4>
 								<p class="product__descriptiom">Known for her sculptural takes on traditional tailoring,
 									Australian arbiter of
@@ -183,7 +219,7 @@
 					<figure>
 						<img class="fetured_image" src="img/product4.svg" alt="product">
 						<figcaption class="fetured__text">
-							<a href="product.html" class="text__link">
+							<a href="products.html" class="text__link">
 								<h4 class="product__name">ELLERY X M'O CAPSULE</h4>
 								<p class="product__descriptiom">Known for her sculptural takes on traditional tailoring,
 									Australian arbiter of
@@ -206,7 +242,7 @@
 					<figure>
 						<img class="fetured_image" src="img/product5.svg" alt="product">
 						<figcaption class="fetured__text">
-							<a href="product.html" class="text__link">
+							<a href="products.html" class="text__link">
 								<h4 class="product__name">ELLERY X M'O CAPSULE</h4>
 								<p class="product__descriptiom">Known for her sculptural takes on traditional tailoring,
 									Australian arbiter of
@@ -229,7 +265,7 @@
 					<figure>
 						<img class="fetured_image" src="img/product6.svg" alt="product">
 						<figcaption class="fetured__text">
-							<a href="product.html" class="text__link">
+							<a href="products.html" class="text__link">
 								<h4 class="product__name">ELLERY X M'O CAPSULE</h4>
 								<p class="product__descriptiom">Known for her sculptural takes on traditional tailoring,
 									Australian arbiter of
@@ -244,7 +280,6 @@
 		<div class="all_products">
 			<a href="products.html" class="all_products_link">Browse All Product</a>
 		</div>
-	</div>
 	</div>
 	<div class="footer">
 		<div class="footer_top">
@@ -282,7 +317,7 @@
 					<div class="contact_form">
 						<h3 class="subscribe_text">SUBSCRIBE</h3>
 						<p class="subscribe_text_bottom">FOR OUR NEWLETTER AND PROMOTION</p>
-						<form action="#">
+						<form class="from_email" action="#">
 							<input class="email" type="email" placeholder="Enter Your Email">
 							<button type="submit" class="subscribe"><span
 									style="color: #FFFFFF;">Subscribe</span></button>
