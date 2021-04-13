@@ -1,0 +1,142 @@
+@media screen and (max-width: 767.9px){
+    .navbar__icons:last-child{
+        margin-right: 16px;
+    }
+
+    #product__view{
+        max-width:100vw;
+    }
+
+    .hide-mobile{
+        display: none;
+    }
+    
+    .panel__nav{
+        flex-direction: column;
+    }
+
+    .pink__head{
+        margin: 0;
+    }
+
+    .panel__head{
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
+    .panel__links{
+        margin-bottom: 46px;
+    }
+
+    .choice{
+        margin-top: 0;
+    }
+
+    .choice__wrapper{
+        max-width: 100%;
+        height: 624px;
+        justify-content: center;
+    }
+
+    .choice__button{
+        padding: 10px 15px;
+    }
+
+    .btn__desc{
+        font-size: 10px;
+    }
+
+    .pink__price{
+        margin-top: 32px;
+    }
+
+    .desc__paragraph{
+        margin-left: 24px;
+        margin-right: 24px;
+        max-width: 565px;
+    }
+
+    hr{
+        margin: 32px 0;
+    }
+
+    .fetured{
+        margin-top: 64px;
+    }
+
+    .fetured__list__items{
+        justify-content: center;
+        grid-template-columns: 360px;
+    }
+
+    .footer__quote{
+        margin-top: 15px;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023.9px){
+    .choice{
+        margin-top: 0;
+    }
+    
+    .navbar__icons:last-child{
+        margin-right: 16px;
+    }
+    
+    .panel__head{
+        margin-left:16px;
+    }
+
+    .panel__links{
+        margin-right: 16px;
+    }
+    
+    .choice__wrapper{
+        max-width: 100%;
+        height: 624px;
+    }
+
+    .grid__align{
+        margin: 0 16px;
+        gap: 16px;
+        justify-items: center;
+        grid-template-columns: repeat(4, minmax(160px, 180px));
+    }
+
+    .grid__align__item{
+        grid-column: span 2;
+    }
+
+    .grid__align__item:last-child{
+        grid-column: 2 / span 2;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+
+
+    #product__view{
+        max-width:100vw;
+    }
+
+    .choice__wrapper{
+        max-width: 100%;
+    }
+
+    .fetured__wrapper{
+        justify-content: center;
+    }
+
+    .fetured__list__items{
+        margin-left: 16px;
+        margin-right: 16px;
+        gap: 20px;
+    }
+
+    .fetured__list__items{
+        grid-template-columns: repeat(3, minmax(300px, 360px));
+    }
+
+}
